@@ -1,0 +1,19 @@
+{
+  "name": "internet-speedtest",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Консольный скрипт для оценки скорости скачивания: N последовательных запросов к URL.",
+  "main": "speedtest.js",
+  "bin": {
+    "speedtest": "./speedtest.js"
+  },
+  "scripts": {
+    "start": "node speedtest.js",
+    "test": "node speedtest.js https://httpbin.org/image/jpeg"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "author": "Ivan Krivonos"
+}
